@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@kirkeaton/prettier-config':
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: 1.0.3
+        version: 1.0.3
       '@kirkeaton/semantic-release-config':
         specifier: 1.0.1
         version: 1.0.1
@@ -130,8 +130,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@kirkeaton/prettier-config@1.0.2':
-    resolution: {integrity: sha512-14A7UgBeVbA0Hj58mwqy3U0+sOUSjeiiIIY+lB735oGGHdUkcvfTzLYIzqIc+vbYRJKlyMXKdZtNPzu3+TfElQ==}
+  '@kirkeaton/prettier-config@1.0.3':
+    resolution: {integrity: sha512-gY6SVSpqDxB/1SFvnx0UWASlF0JjH37kngzEZTAMUUaSc1olXtGvyWwH5nhzV750NzAZKcs5xTzLSUyAW8braQ==}
 
   '@kirkeaton/semantic-release-config@1.0.1':
     resolution: {integrity: sha512-qZZ6+U5q3+E4/24JfrnqbiqlDgMm5DPsjHiEJYm4o0GL6pn1d/R/5JT0O2Sv+KKX0qLGDBYIqPc3JR9pFpzlLQ==}
@@ -1702,7 +1702,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@kirkeaton/prettier-config@1.0.2': {}
+  '@kirkeaton/prettier-config@1.0.3': {}
 
   '@kirkeaton/semantic-release-config@1.0.1': {}
 
