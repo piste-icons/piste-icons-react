@@ -23,7 +23,7 @@ module.exports = (variables, { tpl }) => {
   const defaultColor = DEFAULT_COLOR[componentName];
 
   return tpl`
-    import { ColorExtract, COLORS } from './constants';
+    import { ColorExtract, COLORS } from './constants.js';
 
     export interface ${propsName} {
       color?: ColorExtract<${colors}>

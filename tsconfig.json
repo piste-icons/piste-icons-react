@@ -1,20 +1,4 @@
 {
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "esModuleInterop": true,
-    "outDir": "./dist",
-    "jsx": "react-jsx",
-    "lib": ["dom", "esnext"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmit": false,
-    "resolveJsonModule": true,
-    "rootDir": "./src",
-    "sourceMap": true,
-    "strict": true,
-    "target": "esnext"
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["**/dist", "**/node_modules", "**/*.md"]
+  "extends": "@kirkeaton/tsconfig",
+  "include": ["src"]
 }
