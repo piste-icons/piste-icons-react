@@ -1,3 +1,4 @@
+// Map of commonly used colours for difficulty symbols
 const COLORS = {
   Circle: ['black', 'blue', 'green', 'orange', 'red'],
   Diamond: ['black', 'red'],
@@ -6,6 +7,7 @@ const COLORS = {
   TerrainPark: ['orange'],
 };
 
+// Map of the default colour for difficulty symbols used in North America
 const DEFAULT_COLOR = {
   Circle: 'green',
   Diamond: 'black',
@@ -17,16 +19,16 @@ const DEFAULT_COLOR = {
 module.exports = (variables, { tpl }) => {
   const componentName = variables.componentName.replace('Svg', '');
   const propsName = `${componentName}Props`;
-  const colors = COLORS[componentName]
+  const colors = (COLORS[componentName] || [])
     .map((color) => `\'${color}\'`)
     .join(' | ');
-  const defaultColor = DEFAULT_COLOR[componentName];
+  const defaultColor = DEFAULT_COLOR[componentName] || 'black';
 
   return tpl`
-    import { ColorExtract, COLORS } from './constants.js';
+    import { ${!!colors ? 'ColorExtract' : 'Color'}, COLORS } from './constants.js';
 
     export interface ${propsName} {
-      color?: ColorExtract<${colors}>
+      color?: ${!!colors ? `ColorExtract<${colors}>` : 'Color'}
       size?: number
     }
     
