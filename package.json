@@ -4,7 +4,7 @@
   "description": "React components for ski trail difficulty symbols",
   "author": "Kirk Eaton <contact@kirkeaton.ca>",
   "bugs": {
-    "url": "https://github.com/kirkeaton/piste-icons-react/issues"
+    "url": "https://github.com/piste-icons/piste-icons-react/issues"
   },
   "devDependencies": {
     "@kirkeaton/prettier-config": "1.0.4",
@@ -29,7 +29,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/kirkeaton/piste-icons-react#readme",
+  "homepage": "https://github.com/piste-icons/piste-icons-react#readme",
   "keywords": [
     "piste",
     "ski",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirkeaton/piste-icons-react.git"
+    "url": "git+https://github.com/piste-icons/piste-icons-react.git"
   },
   "scripts": {
     "build": "pnpm clean && pnpm generate && tsc",
