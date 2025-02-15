@@ -9,8 +9,8 @@
   "devDependencies": {
     "@kirkeaton/prettier-config": "1.0.5",
     "@kirkeaton/semantic-release-config": "1.0.4",
-    "@kirkeaton/tsconfig": "1.0.2",
-    "@piste-icons/svg": "1.4.1",
+    "@kirkeaton/tsconfig": "1.0.3",
+    "@piste-icons/svg": "1.4.2",
     "@svgr/cli": "8.1.0",
     "@types/react": "19.0.8",
     "prettier": "3.5.1",

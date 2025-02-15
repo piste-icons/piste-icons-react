@@ -15,11 +15,11 @@ importers:
         specifier: 1.0.4
         version: 1.0.4
       '@kirkeaton/tsconfig':
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: 1.0.3
+        version: 1.0.3
       '@piste-icons/svg':
-        specifier: 1.4.1
-        version: 1.4.1
+        specifier: 1.4.2
+        version: 1.4.2
       '@svgr/cli':
         specifier: 8.1.0
         version: 8.1.0(typescript@5.7.3)
@@ -139,8 +139,8 @@ packages:
   '@kirkeaton/semantic-release-config@1.0.4':
     resolution: {integrity: sha512-OEXHcxMXWg2olZu8azP+QMpSkNTOhBFfiAbcIpH3mEQlvI9hgwXhJayNvsp7rPfpIOBKgvGImXdPjv+QdEq2Lw==}
 
-  '@kirkeaton/tsconfig@1.0.2':
-    resolution: {integrity: sha512-SXhSrsbn9OJ+XvyMqCAcmvsG88WfuJN1PK146D80+lsFqtxVrZVloeQp5B04u6HLGoFXwLhNxGdbq7cB5UyUOg==}
+  '@kirkeaton/tsconfig@1.0.3':
+    resolution: {integrity: sha512-FLIuPvOzjJ7Evugpp5bzW10oWQedVDsL1iVapO+9qrITP2CdePGDgOv9a5uc36i/kwlSHNlq0DPyAmBAHiaAEA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -202,8 +202,8 @@ packages:
   '@octokit/types@13.8.0':
     resolution: {integrity: sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A==}
 
-  '@piste-icons/svg@1.4.1':
-    resolution: {integrity: sha512-boKMdG844Ga3Pa0QnWPgf7GtW05l03F78NUa4lQXSUNUCFxnO/EBogxRcJ3t7z3t+bCNDmQ4x5yTZ4QkynY5iw==}
+  '@piste-icons/svg@1.4.2':
+    resolution: {integrity: sha512-qw5w+ajvyGAYSswCBhmUHMdD0NFzCNb+ssyTNHHQS9J2r1dExltMg6BYNNgpsy9aZvv+RxY0f4U0LCnNB5TiqA==}
 
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
@@ -1708,7 +1708,7 @@ snapshots:
 
   '@kirkeaton/semantic-release-config@1.0.4': {}
 
-  '@kirkeaton/tsconfig@1.0.2': {}
+  '@kirkeaton/tsconfig@1.0.3': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1781,7 +1781,7 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 23.0.1
 
-  '@piste-icons/svg@1.4.1': {}
+  '@piste-icons/svg@1.4.2': {}
 
   '@pnpm/config.env-replace@1.1.0': {}
 
