@@ -12,7 +12,7 @@
     "@kirkeaton/tsconfig": "1.0.3",
     "@piste-icons/svg": "1.4.2",
     "@svgr/cli": "8.1.0",
-    "@types/react": "19.0.10",
+    "@types/react": "19.0.11",
     "prettier": "3.5.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -40,7 +40,7 @@
     "react"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.6.3",
+  "packageManager": "pnpm@10.6.4",
   "peerDependencies": {
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
