@@ -12,6 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         node-version:
+          - 24
           - 22
           - 20
           - 18
@@ -36,14 +37,14 @@ jobs:
           react-types-version: ${{ matrix.react-version }}
       - name: Install dependencies
         run: pnpm install
-      - if: ${{ matrix.node-version == 22 }}
+      - if: ${{ matrix.node-version == 24 }}
         name: Check formatting
         run: pnpm prettier --check "*.{cjs,json,md,ts,tsx}"
       - name: Build
         run: pnpm build
-      - if: ${{ matrix.node-version == 22 }}
+      - if: ${{ matrix.node-version == 24 }}
         name: Check types
         run: pnpm tsc --noEmit
-      - if: ${{ matrix.node-version == 22 }}
+      - if: ${{ matrix.node-version == 24 }}
         name: Check for packaging errors
         uses: kirkeaton/action-publint@cbe13157cb753a26a058ea0de896317abf78cd63 # v1.0.12
