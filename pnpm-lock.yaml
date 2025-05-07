@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.3
         version: 1.0.3
       '@piste-icons/svg':
-        specifier: 1.4.2
-        version: 1.4.2
+        specifier: 1.5.0
+        version: 1.5.0
       '@svgr/cli':
         specifier: 8.1.0
         version: 8.1.0(typescript@5.8.3)
@@ -202,8 +202,8 @@ packages:
   '@octokit/types@14.0.0':
     resolution: {integrity: sha512-VVmZP0lEhbo2O1pdq63gZFiGCKkm8PPp8AUOijlwPO6hojEVjspA0MWKP7E4hbvGxzFKNqKr6p0IYtOH/Wf/zA==}
 
-  '@piste-icons/svg@1.4.2':
-    resolution: {integrity: sha512-qw5w+ajvyGAYSswCBhmUHMdD0NFzCNb+ssyTNHHQS9J2r1dExltMg6BYNNgpsy9aZvv+RxY0f4U0LCnNB5TiqA==}
+  '@piste-icons/svg@1.5.0':
+    resolution: {integrity: sha512-JBuui7vpBiMQ+puw9hapYRzj+sORFR9lfAnf1IRmT8l+VbPiiIWekPRGARIGISHDeGfqg0gahikEQBbQ1RaA5A==}
 
   '@pnpm/config.env-replace@1.1.0':
     resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
@@ -1778,7 +1778,7 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 25.0.0
 
-  '@piste-icons/svg@1.4.2': {}
+  '@piste-icons/svg@1.5.0': {}
 
   '@pnpm/config.env-replace@1.1.0': {}
 
