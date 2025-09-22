@@ -40,7 +40,7 @@
     "react"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.17.1",
   "peerDependencies": {
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
