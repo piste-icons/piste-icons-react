@@ -12,7 +12,7 @@
     "@kirkeaton/tsconfig": "2.1.0",
     "@piste-icons/svg": "1.5.0",
     "@svgr/cli": "8.1.0",
-    "@types/react": "19.1.14",
+    "@types/react": "19.1.15",
     "prettier": "3.6.2",
     "react": "19.1.1",
     "react-dom": "19.1.1",
