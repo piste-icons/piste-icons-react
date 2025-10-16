@@ -31,7 +31,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
       - name: Setup React ${{ matrix.react-version }}
-        uses: kirkeaton/setup-react@7ea91ae35815becbe4657def7da08017e5557a0c # v1.0.4
+        uses: kirkeaton/setup-react@f44b147594605c7d3651a757a6292136c010647e # v1.0.5
         with:
           react-version: ${{ matrix.react-version }}
           react-dom-version: ${{ matrix.react-version }}
