@@ -31,7 +31,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
       - name: Setup React ${{ matrix.react-version }}
-        uses: kirkeaton/setup-react@70a614a00cf3921bacb53467fc8bc90249ef7923 # v2.0.4
+        uses: kirkeaton/setup-react@a59f1bbbcf724b8fd417e5650e7baaca553650a0 # v2.0.5
         with:
           react-version: ${{ matrix.react-version }}
           react-dom-version: ${{ matrix.react-version }}
@@ -48,4 +48,4 @@ jobs:
         run: pnpm tsc --noEmit
       - if: ${{ matrix.node-version == 24 }}
         name: Check for packaging errors
-        uses: kirkeaton/action-publint@5395df1d504e53ae442065165310e4f5de08b2da # v2.0.4
+        uses: kirkeaton/action-publint@d1a4f82ae22224426628517b57eb49528d1074e1 # v2.0.5
