@@ -14,6 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         node-version:
+          - 26
           - 24
           - 22
           - 20
@@ -36,14 +37,14 @@ jobs:
           react-types-version: ${{ matrix.react-version }}
       - name: Install dependencies
         run: npm ci
-      - if: ${{ matrix.node-version == 24 }}
+      - if: ${{ matrix.node-version == 26 }}
         name: Check formatting
         run: npm run lint
       - name: Build
         run: npm run build
-      - if: ${{ matrix.node-version == 24 }}
+      - if: ${{ matrix.node-version == 26 }}
         name: Check types
         run: npm run typecheck
-      - if: ${{ matrix.node-version == 24 }}
+      - if: ${{ matrix.node-version == 26 }}
         name: Check for packaging errors
         uses: kirkeaton/action-publint@b4639b7e4dbde39791f2743a80f548af6c96c977 # v2.0.14
