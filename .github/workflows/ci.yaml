@@ -30,7 +30,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - name: Setup React ${{ matrix.react-version }}
-        uses: kirkeaton/setup-react@12ecd2286ad7d6bbadb65064d599614244f6b7fa # v2.0.13
+        uses: kirkeaton/setup-react@710fa45aaa784e69d806e4cb0147ae059f21c1d0 # v2.0.15
         with:
           react-version: ${{ matrix.react-version }}
           react-dom-version: ${{ matrix.react-version }}
@@ -47,4 +47,4 @@ jobs:
         run: npm run typecheck
       - if: ${{ matrix.node-version == 26 }}
         name: Check for packaging errors
-        uses: kirkeaton/action-publint@556917da0318032bdc8afe9c88fe948c49bb2dc7 # v2.0.16
+        uses: kirkeaton/action-publint@cb16dac71b6f3395e7d21ea4fda583790d84fa53 # v2.0.18
